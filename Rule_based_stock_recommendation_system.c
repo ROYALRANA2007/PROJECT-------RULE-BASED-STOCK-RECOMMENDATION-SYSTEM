@@ -3,11 +3,8 @@
 
 int analyseStock(char name[])
 {
-    float mp, roe, eps, pe, indPE;
-    float debt, div, book, face;
-    float pb;
-    int budget;
-    int score = 0;
+    float mp, roe, eps, pe, indPE, debt, div, book, face, pb;
+    int budget,score = 0;
 
     printf("\nEnter Market Price : ");
     scanf("%f", &mp);
